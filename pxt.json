@@ -1,17 +1,23 @@
 {
-    "name": "airQuality",
+    "name": "airquality",
     "version": "0.0.4",
     "description": "SparkFun airQuality",
     "license": "MIT",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "microphone": "*"
     },
     "files": [
         "README.md",
-        "airQuality.ts"
+        "airQuality.ts",
+        "main.ts"
     ],
     "testFiles": [
         "tests.ts"
     ],
-    "public": true
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
 }

@@ -27,7 +27,7 @@ namespace airQuality {
 	let appStarted = false;
 
     //CCS811 Addresses
-    const ccsAddr = 0x5B
+    const ccsAddr = 0x5A
     const ccsStatus = 0x00
     const ccsMeas = 0x01
     const ccsAlg = 0x02
